@@ -59,6 +59,12 @@ dependencies:
   payload-admin-bar:
     specifier: ^1.0.6
     version: 1.0.6(react-dom@18.3.1)(react@18.3.1)
+  payload-visual-editor:
+    specifier: ^2.0.6
+    version: 2.0.6(payload@2.23.1)(react-i18next@11.18.6)(react@18.3.1)
+  payload-warding:
+    specifier: ^0.1.10
+    version: 0.1.10(payload@2.23.1)
   qs:
     specifier: 6.11.2
     version: 6.11.2
@@ -7171,6 +7177,27 @@ packages:
       react-dom: 18.3.1(react@18.3.1)
     dev: false
 
+  /payload-visual-editor@2.0.6(payload@2.23.1)(react-i18next@11.18.6)(react@18.3.1):
+    resolution: {integrity: sha512-GZgd+17gLUV5xi+newTfv9LrIGE95pLiMJpYEuYTLHLm8njJUZ0faTiC7paPZyPx40y9HTzZC+KAQsxO7Q/dxw==}
+    peerDependencies:
+      payload: ^2.0.13
+      react: ^18.2.0
+      react-i18next: ^11.18.0
+    dependencies:
+      payload: 2.23.1(@types/react@18.0.21)(typescript@4.9.5)(webpack@5.92.1)
+      react: 18.3.1
+      react-i18next: 11.18.6(i18next@22.5.1)(react-dom@18.3.1)(react@18.3.1)
+      ts-pattern: 5.2.0
+    dev: false
+
+  /payload-warding@0.1.10(payload@2.23.1):
+    resolution: {integrity: sha512-HsOrxLc9c0g47noPGukEoPxHgMts9DcuHLnOCtz9a7mq6yY8jK2l1ZRxTSX7U7vnueV+iEKUiWOWI26iPFimjA==}
+    peerDependencies:
+      payload: ^2.1.0
+    dependencies:
+      payload: 2.23.1(@types/react@18.0.21)(typescript@4.9.5)(webpack@5.92.1)
+    dev: false
+
   /payload@2.23.1(@types/react@18.0.21)(typescript@4.9.5)(webpack@5.92.1):
     resolution: {integrity: sha512-rcIIhagI3mgPdCYjuxntgr/Vonip2b/+9MuqkUZiyAulLxXKfRSC2G6bsGsi+X/1EnzApwLPTCSl82Q9OCoQiw==}
     engines: {node: '>=14'}
@@ -9286,6 +9313,10 @@ packages:
       v8-compile-cache-lib: 3.0.1
       yn: 3.1.1
     dev: true
+
+  /ts-pattern@5.2.0:
+    resolution: {integrity: sha512-aGaSpOlDcns7ZoeG/OMftWyQG1KqPVhgplhJxNCvyIXqWrumM5uIoOSarw/hmmi/T1PnuQ/uD8NaFHvLpHicDg==}
+    dev: false
 
   /tsconfig-paths@3.15.0:
     resolution: {integrity: sha512-2Ac2RgzDe/cn48GvOe3M+o82pEFewD3UPbyoUHHdKasHwJKjds4fLXWf/Ux5kATBKN20oaFGu+jbElp1pos0mg==}
